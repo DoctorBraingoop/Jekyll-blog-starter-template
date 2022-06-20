@@ -1,8 +1,9 @@
 _site
+_drafts
+_posts
+# _config.yml
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
 
-
-# _config.yml
