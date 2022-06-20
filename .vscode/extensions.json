@@ -13,7 +13,8 @@
 
     // Spell checking for text, markdown and latex
     "streetsidesoftware.code-spell-checker",
-
+    
+    // Markdown linting and style checking
     "DavidAnson.vscode-markdownlint",
 
     // Liquid syntax highlighting, snippits, and formatting
