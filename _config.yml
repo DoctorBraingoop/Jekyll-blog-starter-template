@@ -14,6 +14,10 @@
 #
 
 owner:
+  name: Michael Smith
+  email: skyviewsmith@gmail.com
+  twitter:
+  github: DoctorBraingoop
 
 #! Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -21,7 +25,7 @@ owner:
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Michael's Blog
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -33,8 +37,8 @@ date: 2022-06-19
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: America/New_York
 paginate: 5
-paginate_path: /page:num/
-future: true
+paginate_path: /pagination/page-:num/
+future: true # show posts with future dates
 pygments: false
 highlight_js: true
 markdown: kramdown
@@ -71,9 +75,9 @@ defaults:
   # default
   - scope:
       path: ""
-      type: # previously `page` in Jekyll 2.2.
+      type:
     values:
-      layout: # overrides previous default layout
+      layout:
       author:
   # posts
   - scope:
@@ -95,6 +99,7 @@ defaults:
     values:
       layout: # overrides previous default layout
       author:
+
 #! Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
