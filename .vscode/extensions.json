@@ -14,6 +14,9 @@
     // Spell checking for text, markdown and latex
     "streetsidesoftware.code-spell-checker",
 
-    "DavidAnson.vscode-markdownlint"
+    "DavidAnson.vscode-markdownlint",
+
+    // Liquid syntax highlighting, snippits, and formatting
+    "sissel.shopify-liquid"
   ]
 }
