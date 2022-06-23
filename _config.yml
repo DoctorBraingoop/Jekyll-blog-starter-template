@@ -15,8 +15,8 @@
 
 owner:
   name: Michael Smith
-  twitter:
   github: DoctorBraingoop
+  twitter:
 
 #! Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -72,12 +72,12 @@ plugins:
 # path when creating a scope/values pair.
 defaults:
   # default
-  - scope:
-      path: ""
-      type:
-    values:
-      layout:
-      author:
+  #   - scope:
+  #       path: ""
+  #       type:
+  #     values:
+  #       layout:
+  #       author:
   # posts
   - scope:
       path: ""
@@ -85,20 +85,19 @@ defaults:
     values:
       layout: single
       title:
-      categories: blog update
+      categories: ["blog", " update"]
       author_profile: true
       read_time: true
       comments: true
       share: false
       related: true
       show_date: true
-  - scope:
-      path: ""
-      type: # previously `page` in Jekyll 2.2.
-    values:
-      layout: # overrides previous default layout
-      author:
-
+#   - scope:
+#       path: ""
+#       type: # previously `page` in Jekyll 2.2.
+#     values:
+#       layout: # overrides previous default layout
+#       author:
 #! Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
